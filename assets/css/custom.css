@@ -1,0 +1,10 @@
+/* Add here all your css styles (customizations) */
+.hero-bg {
+  background-image: url("../img/hero-bg-1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.microbe-logo {
+  margin-top: 35vh
+}
