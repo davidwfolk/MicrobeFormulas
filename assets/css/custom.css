@@ -21,3 +21,8 @@
   height: 28vh
 
 }
+
+.border-rs {
+  border-right-style: solid;
+  border-right-width: medium;
+}
