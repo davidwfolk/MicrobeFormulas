@@ -657,17 +657,34 @@
         </div>
       </div>
       <div class="row my-5">
-        <div class="col-3 text-center border-rs">
-          <h4>Chronically Ill</h4>
+        <div onclick="phase1()" id="phase1" class="col-3 text-center border-rs">
+          <h4 class="phase-hover" type="button">Chronically Ill</h4>
         </div>
-        <div class="col-3 text-center border-rs">
-          <h4>Optimize My Health</h4>
+        <div onclick="phase2()" id="phase2" type="button" class="col-3 text-center border-rs">
+          <h4 class="phase-hover" type="button">Optimize My Health</h4>
         </div>
-        <div class="col-3 text-center border-rs">
-          <h4>Immune System Support</h4>
+        <div onclick="phase3()" id="phase3" type="button" class="col-3 text-center border-rs">
+          <h4 class="phase-hover" type="button">Immune System Support</h4>
         </div>
-        <div class="col-3 text-center">
-          <h4>Mold Detox</h4>
+        <div onclick="phase4()" id="phase4" type="button" class="col-3 text-center">
+          <h4 class="phase-hover" type="button">Mold Detox</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mb-3 pr-4">
+          <h1 id="phasehl" class="mb-0 font-weight-bold" style="display:block">Phase 1</h1>
+          <h3 id="phasesub" class="mt-0" style="display:block">Foundational Protocol</h3>
+          <h5 id="phasetext" style="display:block">No matter what youve been diagnosed with, the components of this
+            phase are foundational to your healing journey.</h5>
+        </div>
+        <div class="col-8 mx-auto p-0">
+          <img class="img-fluid" src="../assets/img/product-phase-1.png" id="phasepic" style="display:block" />
+        </div>
+        <div class="col-6 text-right mt-5 mb-5">
+          <button type="button" class="btn btn-light btn-lg"><strong>Learn More</strong></button>
+        </div>
+        <div class="col-6 text-left mt-5 mb-5">
+          <button type="button" class="btn btn-primary btn-lg"><strong>Add To Cart</strong></button>
         </div>
       </div>
     </div>

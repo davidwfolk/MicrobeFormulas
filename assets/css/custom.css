@@ -26,3 +26,11 @@
   border-right-style: solid;
   border-right-width: medium;
 }
+
+.phase-hover:active {
+  color: #6ac9c9
+}
+
+.btn-mf {
+  color: #6ac9c9 !important
+}
