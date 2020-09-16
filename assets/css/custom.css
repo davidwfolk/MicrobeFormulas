@@ -3,8 +3,21 @@
   background-image: url("../img/hero-bg-1.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  border: transparent
 }
 
 .microbe-logo {
   margin-top: 35vh
+}
+
+.card {
+  background: rgb(23,133,142);
+  background: linear-gradient(343deg, rgba(23,133,142,1) 0%, rgba(134,210,216,1) 87%, rgba(185,235,237,1) 100%);
+  border: transparent;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  height: 28vh
+
 }
