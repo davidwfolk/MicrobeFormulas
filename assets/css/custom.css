@@ -3,11 +3,12 @@
   background-image: url("../img/hero-bg-1.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  border: transparent
+  border: transparent;
+  margin-top: -90px
 }
 
 .microbe-logo {
-  margin-top: 35vh
+  margin-top: 43vh
 }
 
 .card {
