@@ -36,3 +36,39 @@
   color: #6ac9c9 !important;
   font-weight: bold;
 }
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-cta {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.zoom:hover .hidden {
+  opacity: 1;
+}
