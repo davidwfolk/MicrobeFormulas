@@ -9,9 +9,11 @@
 //   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
 
+
 function phase1() {
   let p1pic = "../assets/img/product-phase-1.png";
   let img = document.getElementById('phasepic')
+  // @ts-ignore
   img.src = p1pic.replace('90x90', '225x225');
   img.style.display = "block";
 
@@ -33,6 +35,7 @@ function phase1() {
 function phase2() {
   let p2pic = "../assets/img/product-phase-2.png";
   let img = document.getElementById('phasepic')
+    // @ts-ignore
   img.src = p2pic.replace('90x90', '225x225');
   img.style.display = "block";
 
@@ -53,6 +56,7 @@ function phase2() {
 function phase3() {
   let p3pic = "../assets/img/product-phase-3.png";
   let img = document.getElementById('phasepic')
+    // @ts-ignore
   img.src = p3pic.replace('90x90', '225x225');
   img.style.display = "block";
 
@@ -72,6 +76,7 @@ function phase3() {
 function phase4() {
   let p4pic = "../assets/img/product-phase-4.png";
   let img = document.getElementById('phasepic')
+    // @ts-ignore
   img.src = p4pic.replace('90x90', '225x225');
   img.style.display = "block";
 
