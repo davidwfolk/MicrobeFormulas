@@ -3,8 +3,11 @@
   background-image: url("../img/hero-bg-1.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  border: transparent;
-  margin-top: -90px
+  margin-top: -90px;
+  background-attachment: fixed;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .microbe-logo {
