@@ -44,6 +44,14 @@
   transform: translate(-50%, -50%);
 }
 
+.centered-hl {
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  text-align: left;
+  /* transform: translate(-50%, -50%); */
+}
+
 .centered-cta {
   position: absolute;
   top: 80%;
@@ -53,7 +61,7 @@
 
 .zoom {
   padding: 50px;
-  transition: transform .2s; /* Animation */
+  transition: transform .3s; /* Animation */
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -71,4 +79,9 @@
 
 .zoom:hover .hidden {
   opacity: 1;
+}
+
+.zoom:hover img {
+  filter: grayscale(60%) brightness(.3) blur(3px);
+  /* -webkit-filter: grayscale(.7) blur(3px); */
 }
