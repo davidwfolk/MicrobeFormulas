@@ -1,14 +1,27 @@
 /* Add here all your css styles (customizations) */
+.hero-scroll {
+  position: relative;
+  height: 100%;
+
+
+}
+
 .hero-bg {
   background-image: url("../img/hero-bg-1.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: -90px;
   background-attachment: fixed;
+  height: 100%
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
 }
+
+.who-what {
+  text-shadow: 2px 2px 15px #000000;
+}
+
 
 .microbe-logo {
   margin-top: 43vh

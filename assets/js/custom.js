@@ -1,4 +1,14 @@
 
+// // NOTE colorchange for cards
+// const [red, green, blue] = [23,133,142]
+// const card = document.querySelector('.card')
+
+// window.addEventListener('scroll', () => {
+//   const y = 1 + (window.scrollY || window.pageYOffset) / 2250
+//   const [r, g, b] = [red/y, green/y, blue/y].map(Math.round)
+//   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+// })
+
 function phase1() {
   let p1pic = "../assets/img/product-phase-1.png";
   let img = document.getElementById('phasepic')
@@ -77,3 +87,4 @@ function phase4() {
   psub.innerHTML = "Mold Detox";
   ptext.innerHTML = "In this phase, you’ll do a thorough cleanup of heavy metals like mercury, lead, arsenic, and cadmium. These can build up in your body over time. You’ll bind and remove these toxins from your tissues, brain, and other organs to restore your natural state of health.";
 }
+
