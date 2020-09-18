@@ -1,10 +1,10 @@
 /* Add here all your css styles (customizations) */
-.hero-scroll {
-  position: relative;
-  height: 100%;
+/* .hero-scroll {
+  height: 100vh;
+  position: absolute;
 
 
-}
+} */
 
 .hero-bg {
   background-image: url("../img/hero-bg-1.png");
@@ -36,6 +36,28 @@
   border-bottom-right-radius: 0%;
   border-bottom-left-radius: 0%;
   height: 28vh
+
+}
+
+/* NOTE Not Working */
+.card-scroll {
+  position: relative;
+}
+
+.card-scroll::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  z-index: 10000
+}
+
+.card-scroll::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+z-index: 10000;
 
 }
 

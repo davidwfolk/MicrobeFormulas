@@ -9,6 +9,12 @@
 //   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
 
+let cs = document.getElementById("card-scroll")
+window.addEventListener('scroll', function(e) {
+  let value = window.scrollY;
+
+  cs.style.top = value * 0.5 +"px"
+})
 
 function phase1() {
   let p1pic = "../assets/img/product-phase-1.png";
