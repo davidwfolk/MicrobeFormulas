@@ -1,5 +1,5 @@
 
-// // NOTE colorchange for cards
+// // NOTE colorchange for cards on scroll v1
 // const [red, green, blue] = [23,133,142]
 // const card = document.querySelector('.card')
 
@@ -9,12 +9,18 @@
 //   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
 
+// NOTE attempt at scroll with cards v3
+
 let cs = document.getElementById("card-scroll")
 window.addEventListener('scroll', function(e) {
   let value = window.scrollY;
 
   cs.style.top = value * 0.5 +"px"
 })
+
+
+// NOTE Section 3 phases
+
 
 function phase1() {
   let p1pic = "../assets/img/product-phase-1.png";
