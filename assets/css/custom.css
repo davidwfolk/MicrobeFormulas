@@ -1,13 +1,8 @@
 /* Add here all your css styles (customizations) */
-/* .hero-scroll {
-  height: 100vh;
-  position: absolute;
 
-
-} */
 
 .hero-bg {
-  background-image: url("../img/hero-bg-1.png");
+  background: url("../img/hero-bg-1.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: -90px;
@@ -17,6 +12,38 @@
   background-repeat: no-repeat;
   background-size: cover; */
 }
+
+/* NOTE parallax cards v2 *
+/
+/* .hero-scroll {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.hero-scroll::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: url('bg.jpg');
+  background-size: cover;
+  z-index: 0;
+  transform: translateZ(-4px) scale(2);
+} */
+
+/* .hero-scroll div {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  padding: 0 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  transform: translateZ(-2px) scale(1.5);
+} */
 
 .who-what {
   text-shadow: 2px 2px 15px #000000;

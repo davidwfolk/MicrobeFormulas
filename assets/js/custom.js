@@ -9,7 +9,7 @@
 //   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
 
-// NOTE attempt at scroll with cards v3
+// NOTE parallax attempt at scroll with cards v3
 
 let cs = document.getElementById("card-scroll")
 window.addEventListener('scroll', function(e) {
