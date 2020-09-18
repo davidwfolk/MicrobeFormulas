@@ -9,6 +9,13 @@
 //   card.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
 
+$(document).ready(function(){
+  $('button').click(function(){
+      $('.alert').show()
+  }) 
+});
+
+
 // NOTE parallax attempt at scroll with cards v3
 
 let cs = document.getElementById("card-scroll")
